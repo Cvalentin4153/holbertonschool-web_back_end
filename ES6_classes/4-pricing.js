@@ -16,15 +16,15 @@ export default class Pricing {
     return this._amount;
   }
 
-  get currency() {
-    return this._currency;
-  }
-
   set amount(amount) {
     if (typeof amount !== 'number') {
       throw new TypeError('Amount must be a number');
     }
     this._amount = amount;
+  }
+
+  get currency() {
+    return this._currency;
   }
 
   set currency(currency) {
