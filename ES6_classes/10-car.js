@@ -26,7 +26,12 @@ export default class Car {
     return this._color;
   }
 
+  get species() {
+    return this.constructor;
+  }
+
   cloneCar() {
-    return new this.constructor(this._brand, this._motor, this._color);
+    const Species = this.species;
+    return new Species(this._brand, this._motor, this._color);
   }
 }
