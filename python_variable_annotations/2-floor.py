@@ -2,10 +2,6 @@
 import math
 """
 This module provides a function to calculate the floor of a number.
-
-The floor function returns the largest integer less
-than or equal to the given number.
-For example, floor(3.7) returns 3, and floor(-3.7) returns -4.
 """
 
 
