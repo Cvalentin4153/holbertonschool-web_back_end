@@ -14,11 +14,5 @@ def floor(n: float) -> int:
 
     Returns:
         int: The largest integer less than or equal to the given number.
-
-    Examples:
-        >>> floor(3.7)
-        3
-        >>> floor(-3.7)
-        -4
     """
     return math.floor(n)
