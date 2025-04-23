@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+import math
+"""
+This module provides a function to calculate the floor of a number.
+
+The floor function returns the largest integer less than or equal to the given number.
+For example, floor(3.7) returns 3, and floor(-3.7) returns -4.
+"""
+
+
+def floor(n: float) -> int:
+    """
+    Calculate the floor of a number.
+    
+    Args:
+        n (float): The number to calculate the floor of.
+        
+    Returns:
+        int: The largest integer less than or equal to the given number.
+        
+    Examples:
+        >>> floor(3.7)
+        3
+        >>> floor(-3.7)
+        -4
+    """
+    return math.floor(n)
