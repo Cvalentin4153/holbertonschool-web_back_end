@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from typing import List, Union
 """Module for calculating sums of mixed-type lists.
 
 This module provides a function to calculate
@@ -9,6 +8,7 @@ both integers and floating-point numbers.
 The module demonstrates the use of type annotations with Union types
 to handle mixed-type lists and proper return type specification.
 """
+from typing import List, Union
 
 
 def sum_mixed_list(
