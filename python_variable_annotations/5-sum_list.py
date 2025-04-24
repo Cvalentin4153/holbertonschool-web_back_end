@@ -6,7 +6,7 @@ It demonstrates the use of type annotations with lists and return values.
 """
 
 
-def sum_list(input_list: float = []) -> float:
+def sum_list(input_list: list[float]) -> float:
     """
     Calculate the sum of a list of floats.
 
