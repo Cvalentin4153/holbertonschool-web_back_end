@@ -9,10 +9,10 @@ to handle lists of various element types and proper return type specification.
 """
 
 
-from typing import List, Tuple, Any
+from typing import List, Tuple, Sequence, Iterable
 
 
-def element_length(lst: List[Any]) -> List[Tuple[Any, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """Calculate the length of each element in a list.
 
     Args:
