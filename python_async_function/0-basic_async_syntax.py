@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+Asynchronous module that provides a function to wait for a random delay.
+This module demonstrates basic async syntax in Python.
+"""
+
 
 import random
 import asyncio
