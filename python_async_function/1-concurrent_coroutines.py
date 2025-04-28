@@ -8,7 +8,7 @@ It implements a function that spawns multiple instances of
 the wait_random coroutine and returns their delays in ascending order.
 """
 
-from basic_async_syntax import wait_random
+from 0-basic_async_syntax import wait_random
 import asyncio
 
 
