@@ -9,14 +9,7 @@ from typing import List, Dict
 
 
 def schools_by_topic(mongo_collection, topic: str) -> List[Dict]:
-    """Returns the list of school documents having a specific topic.
-
-    Args:
-        mongo_collection: The pymongo collection object.
-        topic (str): The topic searched.
-
-    Returns:
-        List[dict]: A list of school documents that contain the specified topic
-        in their 'topics' list.
+    """
+    Returns the list of school documents having a specific topic.
     """
     return list(mongo_collection.find({"topic": topic}))
