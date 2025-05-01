@@ -2,6 +2,8 @@
 """
 Simple pagination
 """
+
+
 import csv
 import math
 from typing import List, Tuple
@@ -57,6 +59,4 @@ class Server:
         assert isinstance(page_size, int) and page_size > 0
         start, end = index_range(page, page_size)
         data = self.dataset()
-        if start >= len(data):
-            return []
-        return data[start:end]
+        return data[start:end] if start < len(data) else []
